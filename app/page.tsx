@@ -1,5 +1,4 @@
 import CommandMenu from "@/components/CommandMenu";
-import CustomCursor from "@/components/CustomCursor";
 import Nav from "@/components/Nav";
 import Configurator from "@/components/sections/Configurator";
 import FinalCTA from "@/components/sections/FinalCTA";
@@ -13,7 +12,6 @@ import Services from "@/components/sections/Services";
 export default function Home() {
   return (
     <main className="relative">
-      <CustomCursor />
       <CommandMenu />
       <Nav />
       <Hero />
